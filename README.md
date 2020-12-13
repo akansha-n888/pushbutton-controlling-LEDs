@@ -28,4 +28,4 @@ The purpose of this project is to explore the contents in the ELEGOO UNO Starter
 Project is: _finished_
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@akansha-n888](https://www.linkedin.com/in/akansha-nagar/) - feel free to contact me!
