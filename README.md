@@ -6,7 +6,6 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Circuit Setup](#circuit-setup)
 * [Status](#status)
@@ -14,9 +13,6 @@
 
 ## General info
 The purpose of this project is to explore the contents in the ELEGOO UNO Starter Kit and Atmega328 uController
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
 
 ## Technologies
 * ArduinoIDE- version 1.8.13
