@@ -1,0 +1,73 @@
+const int LEDr = 8;
+const int LEDg = 9;
+const int LEDb = 10;
+const int button1 = 2;
+const int button2 = 3;
+
+void setup()
+{
+  pinMode(LEDr, OUTPUT);  //red LED
+  pinMode(LEDg, OUTPUT); //green LED
+  pinMode(LEDb, OUTPUT);  //blue LED
+  pinMode(button1,INPUT_PULLUP);  //pushbutton 1
+  pinMode(button2,INPUT_PULLUP);  //pushbutton 2
+}
+
+void loop() {
+ 
+//NO PUSH BUTTONS ARE PRESSED
+
+    digitalWrite(LEDr,HIGH);
+    digitalWrite(LEDb,HIGH);
+    digitalWrite(LEDg,HIGH);
+        
+      //PUSH BUTTON 1 & PUSH BUTTON 2 ARE PRESSED - green led flashes 1 time/second and others off
+            if (digitalRead(button1) == LOW && digitalRead(button2) == LOW)
+        {
+          while(true)
+            {digitalWrite(LEDr,LOW);
+        digitalWrite(LEDb,LOW);
+              
+              digitalWrite(LEDg,LOW);
+              delay(1000); 
+                digitalWrite(LEDg,HIGH);
+                  delay(1000);   
+
+        if(digitalRead(button1) == LOW || digitalRead(button2) == LOW)
+        {
+          break;}}}
+          
+  //PUSH BUTTON 1 IS PRESSED - red led flahes 3 times/second and others off
+  if (digitalRead(button1) == LOW) 
+    {
+      while(true)
+         {digitalWrite(LEDr,LOW);
+          delay(350); 
+            digitalWrite(LEDr,HIGH);
+              delay(350);
+        
+        digitalWrite(LEDg,LOW);
+        digitalWrite(LEDb,LOW);
+
+        if(digitalRead(button2) == LOW)
+        {
+          break;}}}
+
+     //PUSH BUTTON 2 IS PRESSED - blue led flahses 2 times/second and others off
+      if (digitalRead(button2) == LOW)
+        {
+          while(true)
+          {
+            digitalWrite(LEDb,LOW);
+              delay(500); 
+                digitalWrite(LEDb,HIGH);
+                  delay(500);
+                  
+      digitalWrite(LEDr,LOW);
+        digitalWrite(LEDg,LOW);
+
+        if (digitalRead(button1) == LOW && digitalRead(button2) ==LOW)
+          {
+          break;}}}
+      
+}
