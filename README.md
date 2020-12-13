@@ -1,5 +1,5 @@
 # pushbutton-controlling-LEDs
-> Use two push buttons to control 3 LEDs! Initially, 3 LEDs (red, blue and green) are one without flashing. 
+> Use two push buttons to control 3 LEDs! Initially, 3 LEDs (red, blue and green) are on without flashing. 
 > If push button 1 is pressed, the red LED flashes 3 times a second while the other LEDs are turned off.
 > If push button 2 is pressed, the blue LED flashes 2 times a second while the other LEDs are turned off.
 > If push button 1 and push button 2 are pressed simultaneously, the green LED flashes once a second while the other LEDs are turned off.
