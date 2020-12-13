@@ -20,7 +20,7 @@ The purpose of this project is to explore the contents in the ELEGOO UNO Starter
 ## Circuit Setup
 ![Example screenshot](https://drive.google.com/file/d/1JxxP_dH9JmOkSSWAPAQyfTwF9ViWnUOR/view?usp=sharing)
 
-<a href="https://drive.google.com/uc?export=view&id=XXX"><img src="https://drive.google.com/uc?export=view&id=1JxxP_dH9JmOkSSWAPAQyfTwF9ViWnUOR" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
+<a href="https://drive.google.com/uc?export=view&id=1JxxP_dH9JmOkSSWAPAQyfTwF9ViWnUOR"><img src="https://drive.google.com/uc?export=view&id=1JxxP_dH9JmOkSSWAPAQyfTwF9ViWnUOR" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 
 ## Status
 Project is: _finished_
