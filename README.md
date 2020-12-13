@@ -18,7 +18,7 @@ The purpose of this project is to explore the contents in the ELEGOO UNO Starter
 * ArduinoIDE- version 1.8.13
 
 ## Circuit Setup
-![Example screenshot](C:\Users\akans\Desktop\Capture.png)
+![Example screenshot](Capture.png)
 
 ## Status
 Project is: _finished_
